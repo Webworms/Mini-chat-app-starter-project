@@ -1,0 +1,40 @@
+.authentication {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.authentication .auth-image {
+  width: 525px;
+}
+.authentication .google-button-wrapper {
+  border-radius: 100px;
+  cursor: pointer;
+  width: 260px;
+  background: #dadada3b;
+}
+.authentication .google-button-cover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+}
+.authentication .google-image {
+  margin-right: 15px;
+}
+.authentication .google-image img {
+  width: 20px;
+}
+.authentication .google-button-text {
+  display: flex;
+  align-items: center;
+}
+.authentication .google-button-text p {
+  color: #4d4d4d;
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 500;
+}
